@@ -1,0 +1,133 @@
+.head{
+    min-height: 100vh;
+    width: 100%;
+    background:rgba(255, 0, 0, 0.63);
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 40px;
+    display: inline-block;
+    justify-content: space-between;
+    transition: transform 0.5s;
+    z-index: 1;      
+}
+h1:hover{
+    cursor: pointer;
+    color:yellow;
+    transform: scale(0.9);
+}
+.left{
+    display: inline-block;
+    align-items: right;
+    background-color:rgb(255, 0, 0);
+    border-radius: 30px;
+    margin-left: 150px;
+}
+.left ul{
+    flex: 1;
+    text-align: right;
+}
+ul li{
+   display: inline-block;
+   list-style: none;
+   margin: 0px 25px; 
+   align-items: left; 
+   height: 5px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px; 
+}
+ul li a:hover{
+   color:yellow; 
+}
+.col{
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    background-color:rgb(255, 0, 0);
+    left: 0.5;
+    height: 1030px;
+}
+.row{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 5%;
+}
+.left-c{
+    flex-basis: 40%;
+}
+.right-c{
+    flex-basis: 55%;
+}
+.left-c img{
+    width: 80%;
+    margin-bottom: 100%;
+    top: 0;
+    height: 420px;
+    cursor: pointer;
+    filter: grayscale(0);
+    /* transition: tranform 1.5s; */
+}
+.left-c img:hover{
+    filter: grayscale(1);
+    /* transform: scale(0.96); */
+}
+.right-c h2{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin: o;
+}
+.right-c p{
+    color: white;
+    font-size: 20px;
+    /* margin-bottom: 440px; */
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link:hover{
+    color: red;
+}
+.right-c img{
+    margin-top: 0;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    padding-top: 46px;
+    margin-bottom: 400px;
+    transition: transform 0.5s;
+}
+.right-c img:hover{
+    transform: scale(0.9);
+    
+}
+.png{
+    margin: 25px;  
+}
+
+
+
+
+
+
